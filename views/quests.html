@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../assets/icon_app.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <!-- BOOSTRAP -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>Painel de Importadores - Duvidas Frequentes</title>
+</head>
+<body>
+    <header id="HeaderContainer">
+        <figure class="HeaderContainer primary_logo">
+            <img width="100px" src="../assets/primary_logo.png" alt="Logo Principal">
+        </figure>
+        <h1 class="HeaderContainer primary_title">Painel de Consulta de Importadores<br>Dúvidas Frequentes</h1>
+    </header>
+
+    <a class="btn_return" href="../index.html">Retornar</a>
+
+    <main>
+            
+            <section id="all_quests">
+                <article class="all_quests content_quest">
+                    <h2>Como Atualizar os Dados do meu Importador?</h2>
+                    <p>Para atualizar os dados do importador o processo é relativamente simples, você precisa salvar seu arquivo do cliente por cima do arquivo Base dentro da pasta do seu Importador, feito isso, acesse o Importador e clique no botão "Atualizar Dados".</p>
+                </article>
+                <article class="all_quests content_quest">
+                    <h2>Como Gerar meus arquivos para Importação?</h2>
+                    <p>Para gerar seus arquivos você primeiro precisa atualizar os dados do seu importador, após se certificar que os dados foram atualizados com sucesso, clique no botão Gerar CSV, seus arquivos estarão dentro da pasta "Arquivos para Importação" prontos para serem importados, leve-os até seu G onde você deve criar uma pasta especialmente para isso. (Lembre de conferir antes de importar)</p>
+                </article>
+                <article class="all_quests content_quest">
+                    <h2>Como Importar meus Arquivos?</h2>
+                    <p>Para Importar os arquivos de recebimento e pagamento após conferi-los, Acesse o Dominio, selecione a empresa que deseja realizar a importação, clique na Guia Utilitários, Importação, Importador, Importar, no campo Conjunto de Dados selecione "Lançamentos em Lote arquivo CSV - PADRAO REAL (Lançamentos Arquivos CSV - PADRAO REAL), na caixa ao lado de "Caminho" localize seus arquivos para Importação e clique em Importar.</p>
+                </article>
+
+                <section class="all_quests content_video">
+                        <h2 id="excel" class="play_btn">Tutorial Excel <i class="fas fa-play"></i></h2>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/MqIGQRfV7rA" title="Tutorial Excel" frameborder="0"></iframe>
+                        <h2 id="conciliador" class="play_btn">Tutorial Conciliador Contabil <i class="fas fa-play"></i></h2>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/Ld44_Je7Avk" title="YouTube video player" frameborder="0"></iframe>
+                </section>
+            </section>
+    </main>
+
+</body>
+<script src="../scripts/exibe_tutorial.js"></script>
+<script src="../scripts/oculta_h2.js"></script>
+</html>

@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --font_set:  'Albert Sans', sans-serif;
+    --color : #0e3a5d;
+}
+
+select {
+    text-align: center;
+    width: 400px;
+    font-size: 1rem;
+}
+
+.info_content_itens h2 {
+    font-size: 1.5rem;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+}
+
+#HeaderContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: start !important;
+    text-align: left;
+    width: 800px;
+    margin-top: 10px;
+    margin-left: 1rem;
+    margin-bottom: 30px;
+}
+
+.primary_title {
+    font-family: var(--font_set);
+    font-size: 1rem;
+}
+
+#MainContainer {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-top: 7rem;
+    height: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.info_content_itens {
+    text-align: center;
+    font-family: var(--font_set);
+    margin-left: 2%;
+}
+
+.info_content_itens select:hover {
+    box-shadow: 5px 5px 15px black;
+    cursor: pointer;
+}
+
+.primary_text_title {
+    display: flex;
+    font-family: var(--font_set);
+    font-size: 15px;
+    font-weight: 900;
+}
+
+.primary_text_desc {
+    display: flex;
+    margin-top: 30px;
+    font-size: 15px;
+    font-weight: 900;
+    font-family: var(--font_set);
+}
+
+.primary_text_road {
+    display: flex;
+    font-family: var(--font_set);
+    font-size: 15px;
+    font-weight: 900;
+    margin-top: 25px;
+}
+
+.descReceb {
+    display: flex;
+    font-family: var(--font_set);
+    margin-top: 30px;
+    font-size: 15px;
+    font-weight: 900;
+}
+
+.descPgto {
+    display: flex;
+    font-family: var(--font_set);
+    font-size: 15px;
+    font-weight: 900;
+}
+
+#detail_itens {
+    display: none;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-top: 8rem;
+    font-weight: 900;
+}
+
+#detail_itens h2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+    font-weight: 900;
+}
+
+.primary_image {
+    display: flex;
+    justify-content: center;
+    margin-top: 3px;
+}
+
+.primary_image img {
+    width: 500px;
+}
+
+.secondary_image {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.secondary_image img {
+    width: 500px;
+}
+
+.btn_return {
+    display: flex;
+    margin-top: -7rem;
+    margin-left: 89%;
+    font-size: .9rem;
+}
+
+#all_quests {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5rem;
+}
+
+.all_quests h2 {
+    margin-bottom: 15px;
+}
+
+.all_quests iframe {
+    display: none;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 6px;
+}
+
+.btn_fechar {
+    display: none;
+}
+
+.all_quests h2:hover {
+    cursor: pointer;
+}
+
+.fa-play {
+    color: var(--color);
+}
+
+.content_quest {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #e4e4e4;
+    width: 900px;
+    height: 135px;
+    border-radius: 9px;
+}
+
+.content_quest h2 {
+    display: flex;
+    font-size: 20px;
+    margin-left: 5px;
+    font-family: var(--font_set);
+}
+
+.content_quest p {
+    display: flex;
+    margin-top: -2px;
+    margin-left: 5px;
+    font-family: var(--font_set);
+    font-size: 13px;
+    font-weight: 900;
+}
+
+.content_video {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    width: 1450px;
+    height: 600px;
+    font-family: var(--font_set);
+    margin-top: -7rem;
+}
+
+.content_video h2 {
+    font-family: var(--font_set);
+    color: var(--color);
+    font-size: 28px;
+}
+
+.content_video i {
+    font-size: 25px;
+}
+
+.content_video iframe {
+    width: 700px;
+    height: 400px;
+    margin-top: 5rem;
+}
+
+.close-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 1.5rem;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    display: none;
+    z-index: 1;
+  }
+  

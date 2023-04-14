@@ -1,0 +1,173 @@
+<!-- Diovana ♥ -->
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/icon_app.ico" type="image/x-icon">
+    
+    <!-- BOOSTRAP -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./views/style.css">
+    <title>Consulta de Importadores</title>
+</head>
+
+<body>
+
+    <header id="HeaderContainer">
+        <div class="container">
+            <figure class="HeaderContainer primary_logo">
+                <img width="100px" src="./assets/primary_logo.png" alt="Logo Principal">
+            </figure>
+            <h1 class="HeaderContainer primary_title">Painel de Consulta de Importadores</h1>
+        </div>
+    </header>
+
+    <a class="btn_return" href="./views/quests.html">Dúvidas Frequentes</a>
+
+    <main id="MainContainer">
+
+<!--BLOCO DE LISTA DE MODELOS DE ARQUIVOS-->
+        <div class="container d-flex flex-row justify-content-center">
+            <section class="MainContainer info_content_itens">
+                <h2 class="MainContainer sencodary_title">Modelos<br>de Arquivos</h2>
+                <select name="select" id="select_arq">
+                    <option value="search_box">Selecione o Modelo de Arquivo Desejado</option>
+                    <option value="Francesinha Sicredi">Francesinha Sicredi - Excel</option>
+                    <!--
+                    <option value="Sicredi Consulta de Emprestimos">Sicredi Consulta de Emprestimos</option>
+                    -->
+                    <option value="Banco do Brasil Extrato de Conta Corrente">Banco do Brasil Extrato de Conta Corrente - Conciliador</option>
+                    <option value="Sicoob Extrato de Conta Corrente">Sicoob Extrato de Conta Corrente - Conciliador</option>
+                </select>
+            </section>
+            <!--FIM DO BLOCO DE ARQUIVOS-->
+            
+            
+            <!--BLOCO DE LISTAS DE EMPRESAS VIA EXCEL-->
+            <section class="MainContainer info_content_itens">
+                <h2 class="MainContainer secondary_title">Importadores<br>via Excel</h2>
+                <select name="select" id="select_excel">
+                    <option value="search_box">Selecione a Empresa Desejada</option>
+                    <option value="857 PRO SERVICOS EIRELI">857 PRO SERVICOS EIRELI</option>
+                    <option value="AEG COMÉRCIO DE SISTEMAS DE AQUECIMENTO LTDA">AEG COMÉRCIO DE SISTEMAS DE AQUECIMENTO LTDA</option>
+                    <option value="Agriperin Solucoes em Pulverizadores">Agriperin Solucoes em Pulverizadores</option>
+                    <option value="Empresa Arcari Empreend. Imob. Ltda">Arcari Empreend. Imob. Ltda</option>
+                    <option value="ARG Mangueiras">ARG Mangueiras</option>
+                    <option value="Ativa Empreendimentos Imobiliarios">Ativa Empreendimentos Imobiliarios</option>
+                    <option value="BALEN ADVOCACIA SOCIEDADE DE ADVOGADOS">BALEN ADVOCACIA SOCIEDADE DE ADVOGADOS</option>
+                    <option value="Barreiro e Wawzeniak Ltda">Barreiro e Wawzeniak Ltda</option>
+                    <option value="Restaurante BR 470">Restaurante BR 470</option>
+                    <option value="Buffon">Buffon</option>
+                    <option value="Clube de Caça e Pesca Santo Huberto">Clube de Caça e Pesca Santo Huberto</option>
+                    <option value="CASA A">CASA A</option>
+                    <option value="Casa das Madeiras">Casa das Madeiras</option>
+                    <option value="Clinica Veterinaria Vetvida">Clinica Veterinaria Vetvida</option>
+                    <option value="Construtora Gamate Ltda">Construtora Gamate Ltda</option>
+                    <option value="CRISTO REI MATERIAIS ELETRICOS LTDA">CRISTO REI MATERIAIS ELETRICOS LTDA</option>
+                    <option value="Essencia Di Fiori">Essencia Di Fiori</option>
+                    <option value="GP Comércio Varejista de Móveis Eireli">GP Comércio Varejista de Móveis Eireli</option>
+                    <option value="GWN Indústria e Comércio Ltda">GWN Indústria e Comércio Ltda</option>
+                    <option value="Icehot Comunicação Ltda">Icehot Comunicação Ltda</option>
+                    <option value="INVISEG ASSESSORIA EM SEGURANÇA">INVISEG ASSESSORIA EM SEGURANÇA</option>
+                    <option value="Kfuri & Filhos Ltda">Kfuri & Filhos Ltda</option>
+                    <option value="Mecânica Anderle">Mecânica Anderle</option>
+                    <option value="Mercado de Alimentos Grepar Ltda">Mercado de Alimentos Grepar Ltda</option>
+                    <option value="Padel Pro">Padel Pro</option>
+                    <option value="Reypel Importadora de Máquinas Ltda">Reypel Importadora de Máquinas Ltda</optio>
+                    <option value="Servlar">Servlar</option>
+                    <option value="Tatum Agência de Publicidade e Propaganda Eireli">Tatum Agência de Publicidade e
+                        Propaganda Eireli</option>
+                    <option value="Transmaria Transportes Ltda">Transmaria Transportes Ltda</option>
+                    <option value="Vinhedos Transportes Ltda">Vinhedos Transportes Ltda</option>
+                    <option value="NICOLAO & MATOS LTDA & FILIAIS">NICOLAO & MATOS LTDA & FILIAIS</option>
+                </select>
+            </section>
+            <!--FIM DO BLOCO EXCEL-->
+            
+            
+            <!--BLOCO DO CONCILIADOR-->
+            <section class="MainContainer info_content_itens">
+                <h2 class="MainContainer secondary_title">Importadores<br>via Conciliador Contabil</h2>
+                <select name="select" id="select_conci">
+                    <option value="search_box">Selecione a Empresa Desejada</option>
+                    <option value="Allcap Ind. Com. e Serv. em Ferr. Ltda">Allcap Ind. Com. e Serv. em Ferr. Ltda</option>
+                    <option value="Agriperin Solucoes em Pulverizadores">Agriperin Solucoes em Pulverizadores</option>
+                    <option value="Restaurante BR 470">Restaurante BR 470</option>
+                    <option value="Tatum Agência de Publicidade e Propaganda Eireli">Tatum Agência de Publicidade e Propaganda Eireli</option>
+                    <option value="ALFA MEGA EPIS LTDA">ALFA MEGA EPIS LTDA</option>
+                    <option value="Silvestre Padaria e Confeitaria Ltda">Silvestre Padaria e Confeitaria Ltda</option>
+                    <option value="Kfuri & Filhos Ltda">Kfuri & Filhos Ltda</option>
+                    <option value="Netare">Netare</option>
+                    <option value="Icehot Comunicação Ltda">Icehot Comunicação Ltda</option>
+                    <option value="TRIMETAL MANUTENCOES INDUSTRIAIS">TRIMETAL MANUTENCOES INDUSTRIAIS</option>
+                    <option value="E&R Casa de Repouso">E&R Casa de Repouso</option>
+                    <option value="EBS Construções Ltda">EBS Construções Ltda</option>
+                    <option value="Mecânica Anderle">Mecânica Anderle</option>
+                    <option value="Servlar">Servlar</option>
+                    <option value="Basinox">Basinox</option>
+                    <option value="Bella Vitta Mia Casa de Repouso EIRELI">Bella Vitta Mia Casa de Repouso EIRELI</option>
+                    <option value="Comércio e Transportes de Frutas Nanin">Comércio e Transportes de Frutas Nanin</option>
+                    <option value="Pelegrini Veículos Ltda">Pelegrini Veículos Ltda</option>
+                    <option value="Comiotto Assessoria Empresarial LTDA">Comiotto Assessoria Empresarial LTDA</option>
+                    <option value="Fox Encomendas">Fox Encomendas</option>
+                    <option value="CARDOSO SPORTS SERIGRAFIA LTDA">CARDOSO SPORTS SERIGRAFIA LTDA</option>
+                    <option value="Biosolos Compostos Orgânicos Ltda">Biosolos Compostos Orgânicos Ltda</option>
+                    <option value="Imperius Fabricação de Moveis Eireli">Imperius Fabricação de Moveis Eireli</option>
+                    <option value="SIGPLAST ARTEFATOS PLASTICOS LTDA">SIGPLAST ARTEFATOS PLASTICOS LTDA</option>
+                    <option value="Hidroclima Ltda ME">Hidroclima Ltda ME</option>
+                    <option value="Confeitaria Dolce Gusto Ltda">Confeitaria Dolce Gusto Ltda</option>
+                    <option value="ONORATTA CONFEITARIA LTDA">ONORATTA CONFEITARIA LTDA</option>
+                </select>
+            </section>
+        </div>
+<!--FIM DO BLOCO DO CONCILIADOR-->
+</main>
+
+ <!--BLOCO DE RETORNO DE INFORMAÇÕES VIA JAVASCRIPT PARA EMPRESAS-->
+        <section id="detail_itens">
+
+            <h2 class="detail_itens primary_text_title"></h2>
+            <h2 class="detail_itens primary_text_road"></h2>
+            <h2 class="detail_itens primary_text_title"></h2> <!--REMOVER DA SELEÇÃO DE ARQUIVOS-->
+            <h2 class="detail_itens primary_text_desc"></h2>
+
+            <h2 class="detail_itens descPgto"></h2>
+            <figure class="detail_itens primary_image">
+                <img class="primary_image" src="./assets/primary_logo.png" alt="">
+            </figure>
+            
+            <h2 class="detail_itens descReceb"></h2>
+            <figure class="detail_itens secondary_image">
+                <img class="secondary_image" alt="">
+            </figure>
+
+        </section>
+<!--FIM DO BLOCO DE RETORNO-->
+
+<!--RODAPÉ-->
+<!--
+        <footer id="footer_container">
+            <section class="footer_info">
+                <h2 class="footer_info footer_text">Todos os Direitos Reservados - Real Assessoria Empresarial ©</h2>
+                <h3 class="footer_info footer_sub_text">Desenvolvido pelo Departamento de Tecnologia - Real Assessoria Empresarial</h3>
+            </section>
+        </footer>
+-->
+<!--FIM DO RODAPÉ-->
+
+    </body>
+    <script src="./scripts/arq_list.js"></script>
+    <script src="./scripts/reveal_itens_arq.js"></script>
+    
+    <script src="./scripts/emp_list_excel.js"></script>
+    <script src="./scripts/reveal_itens_excel.js"></script>
+    
+    <script src="./scripts/emp_list_conci.js"></script>
+    <script src="./scripts/reveal_itens_conci.js"></script>
+
+    <script src="./scripts/reset_view.js"></script>	
+</html>
